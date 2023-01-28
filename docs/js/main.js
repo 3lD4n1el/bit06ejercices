@@ -1,15 +1,16 @@
-"use strict";
+'use strict';
 
-let form = document.getElementById("form");
-let response = document.getElementById("response");
+let form = document.getElementById('form');
+let response = document.getElementById('response');
 
-const user = "bit";
-const pass = "2023";
+const user = 'bit';
+const pass = '2023';
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
 
-  form.user.value === user && form.password.value === pass
-    ? location.assign("./ejerecicios/ejercicios.html")
-    : (response.innerHTML = "revisa tus datos, algo esta mal");
+    form.user.value === user && form.password.value === pass
+        ? location.assign('./html/ejercicios.html')
+        : (response.innerHTML = 'Verifica tus datos');
 });
+
