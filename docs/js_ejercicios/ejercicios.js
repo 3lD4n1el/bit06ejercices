@@ -1,11 +1,10 @@
-window.onload=inicio;
 
 function inicio(){
-    //document.querySelector("boton").onclick=listar;
+    document.getElementById("boton").onclick=listar;
 }
 function listar(){
-    let nombre=document.querySelector("campo").value;
-    document.querySelector("caja").innerHTML+=`<div>${nombre}</div>`;
+    let nombre=document.getElementById("campo").value;
+    document.getElementById("respusta").innerHTML+=`${nombre}</div>`;
 
 }
 
