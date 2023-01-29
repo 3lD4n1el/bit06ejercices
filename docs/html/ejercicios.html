@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,17 +8,16 @@
     <title>ejercicios</title>
   </head>
   <body>
-    <div id="caja">
-      <h1>Bienvenido</h1>
-      <h2>1.Pedir nombre al usuario y saludarlo</h2>
-      <form id="form">
-      <div id="respuesta">
-        <label>Escribe tu nombre.<span class="text-danger">*</span></label>
-        <input type="text" id="name">
-        <button type="submit" id="boton">Saludar</button>
-      </div>
-      </form>
-    </div>
+    <h1>Ejercicio N° 1</h1>
+    <h2>Pide el nombre del usuario y saluda le usuario</h2>
+ 
+    <label for="input">Ingresa tu nombre:</label>
+
+    <input type="text" id="input" />
+ 
+    <button onclick="saludar()">Saludar</button>
+
+    <p id="resultado"> Hola</p>
     <script src="../js_ejercicios/ejercicios.js"></script>
   </body>
 </html>
