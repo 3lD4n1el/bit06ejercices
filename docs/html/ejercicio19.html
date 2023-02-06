@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 19.</title>
+</head>
+<body>
+    <h2 id="title">Ejercicio N° 19</h2>
+    <form id="form" class="form_html" action="">
+        <label for="num">
+            
+            <span>Ingresa dos n Números, y escoge una operación aritmetica.</span><br><br>
+            <span>Ingresa el primer Valor.</span>
+            <input  type="number" id="num1" required/>
+            <span>Ingresa el segundo Valor.</span>
+            <input  type="number" id="num2" required/>
+            <span>Operación</span>
+                <select name="operacion" required>
+                    <option value="suma">Suma</option>
+                    <option value="resta" selected>Resta</option>
+                    <option value="multiplicacion">Multiplicacion</option>
+                    <option value="division">Division</option>
+                </select>
+            <button type="submit">Enviar</button>
+            <p id="result"></p>
+
+        </label>
+    </form>
+
+    <p><a href="./ejercicio18.html">anterior</a></p>
+    <p><a href="./pag_inicial.html">inicio</a></p>
+    <p><a href="./ejercicio20.html">siguiente</a></p> 
+
+    <script src="../js_ejercicios/exercise_19.js"></script>
+</body>
+</html>

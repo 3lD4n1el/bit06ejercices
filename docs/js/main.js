@@ -10,7 +10,7 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
 
     form.user.value === user && form.password.value === pass
-        ? location.assign('./html/ejercicios.html')
+        ? location.assign('./html/pag_inicial.html')
         : (response.innerHTML = 'Verifica tus datos');
 });
 
