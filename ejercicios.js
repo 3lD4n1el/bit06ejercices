@@ -1,17 +1,5 @@
 'use strict'
 
-// Programa que retorne el área de un cuadrado.
-
-/* function Calcular(lado) {
-    return lado * lado;
-}
-
-var variable = 6
-var area = Calcular(variable)
-console.log("el area es " + area) */
-
-// Programa que retorne el área de un triángulo.
-
 function Calcular(base, altura) {
     return (base * altura) /2;
 }

@@ -1,3 +1,35 @@
 body{
-    /* background-color: ; */
+   background-image: url(../img/fondo.jpg);
+}
+h3{
+    padding: 90px 0;
+    text-align: center;
+    font-size: 28px;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+form{
+    text-align: center;
+}
+span{
+    font-size: 21px;
+    color: antiquewhite;
+}
+p{
+    font-size: 23px;
+    color: aliceblue;
+}
+.checked{
+    width:18px;
+    height:22px;
+}
+
+button:hover{
+    width: 100px;
+}
+.login-title{
+    color: antiquewhite;
+}
+label{
+    padding: 60px 20px;
 }
