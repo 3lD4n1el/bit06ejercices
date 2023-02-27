@@ -1,0 +1,23 @@
+body{
+ background-image:url(../img/fondoEjer.png);
+ background-size: cover;
+}
+span{
+    font-size: 25px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+div{
+    padding: 30px 0;
+    text-align: center;
+}
+div button a{
+    color: lightyellow;
+    text-decoration: none;
+} 
+form label button{
+    text-decoration: none;
+    color: lightyellow;
+}

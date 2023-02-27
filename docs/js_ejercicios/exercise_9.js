@@ -7,4 +7,5 @@ form.addEventListener('submit', (event) => {
     let num = document.getElementById('num').value;
     const doble = (num * 2 + 4);
     result.innerHTML=`El doble del número ${num}, más "4" es: ${doble} `  
+   
 })

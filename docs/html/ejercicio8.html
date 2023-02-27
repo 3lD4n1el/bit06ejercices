@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ejercicios.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Ejercicio 8</title>
 </head>
 <body>
-    <h2 id="title">Ejercicio N° 8</h2>
+    <div>
+        <h2 id="title">Ejercicio N° 8</h2>
+    </div>
     <form id="form" class="form_html" action="">
         <label for="num">
             
             <span>Ingresa un "n" número, para reducirlo 5 cifras.</span>
             <input  type="number" id="num" required/>
-            <button type="submit">Enviar</button>
+            <button type="submit" class="btn btn-outline-light">Enviar</button>
             <p id="result"></p>
 
         </label>
     </form>
-
-    <p><a href="./ejercicio7.html">anterior</a></p>
-    <p><a href="./pag_inicial.html">inicio</a></p>
-    <p><a href="./ejercicio9.html">siguiente</a></p> 
+<div>
+    <button class="btn btn-outline-success"><a href="./ejercicio7.html">anterior</a></button>
+    <button class="btn btn-outline-success"><a href="./inicio.html">volver</a></button>
+    <button class="btn btn-outline-success"><a href="./ejercicio9.html">siguiente</a></button> 
+</div>
 
     <script src="../js_ejercicios/exercise_8.js"></script>
 </body>
