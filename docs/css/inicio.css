@@ -22,9 +22,8 @@ div{
     padding-bottom: 50px;
 }
 .titulo{
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     color: cornsilk;
     padding-top:30px;
-    
 }
